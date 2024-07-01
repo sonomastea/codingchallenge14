@@ -3,4 +3,4 @@ export function calulateLoan(principal,rate,payments){
 }
  let p=principal
  let r=rate
- let n=payments
+ let n=payrate
