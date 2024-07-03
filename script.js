@@ -1,7 +1,6 @@
-import{loanpaymentcalc} from "loanpayment.js";
-import{interestcalc} from "interestrate.js";
-import{investmentreturncalc} from "investmentreturn.js";
-import { calculateInterest } from "./interestrate";
+import{loanpaymentcalc} from "./loanpayment.js";
+import{interestcalc} from "./interestrate.js";
+import{investmentreturncalc} from "./investmentreturn.js";
 
 //validate inputs function
 
@@ -11,9 +10,9 @@ function validateInput(){
 }
 //Interest Calc/Display
 document.getElementById('InterestCalculator').addEventListener('click', () =>{
-    const principal= parsefloat(document.getElementById)('principal-interest').value;
-    const rate=parseFloat(document.getElementById)('interest-rate').value;
-    const time=parsefloat=(document.getElementById)('interest-time');
+    const principal= parsefloat(document.getElementById)('principalinterest').value;
+    const rate=parseFloat(document.getElementById)('interestrate').value;
+    const time=parsefloat=(document.getElementById)('interesttime');
 if(validateInput(principal,rate,time)); document.getElementsById('interest value').textcontent='Interest: ${value}';
 
 
