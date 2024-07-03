@@ -1,1 +1,2 @@
 # codingchallenge14
+This challenge is to create a simple financial calculator using ES6 modules with three calculator types, interest rate, loan payment, and investment return. The main model java script served to import these functions and structure a user interface. The HTML document is also included in the user interface. This challenge was challenging and very detailed, this was a very imformative assigment. 
